@@ -16,7 +16,7 @@ public class Score {
 	public Score() {		
 	}
 	
-	public void setId(Movie movie) {
+	public void setMovie(Movie movie) {
 		id.setMovie(movie);
 	}
 	
@@ -39,6 +39,4 @@ public class Score {
 	public void setValue(Double value) {
 		this.value = value;
 	}
-	
-	
 }
